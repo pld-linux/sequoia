@@ -3,12 +3,13 @@ Summary(pl):	-
 Name:		sequoia
 Version:	3.0
 %define	_rc	beta1
-Release:	0.1%{_rc}
+Release:	0.%{_rc}.1
 License:	Apache Software License 2.0
 Group:		Applications
 Source0:	https://forge.continuent.org/frs/download.php/192/%{name}-%{version}-%{_rc}-bin.tar.gz
 # Source0-md5:	1ec15de01581707635d80bd4ab8a12c6
 URL:		http://sequoia.continuent.org/HomePage
+BuildRequires:	rpmbuild(macros) >= 1.280
 Requires(post,preun):	/sbin/chkconfig
 Requires(postun):	/usr/sbin/groupdel
 Requires(postun):	/usr/sbin/userdel
