@@ -1,5 +1,5 @@
 Summary:	Sequoia database clustering solution
-Summary(pl):	-
+Summary(pl):	Sequoia - rozwi±zanie klastrowe dla baz danych
 Name:		sequoia
 Version:	3.0
 %define	_rc	beta1
@@ -23,17 +23,21 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+Sequoia database clustering solution.
 
 %description -l pl
+Sequoia - rozwi±zanie klastrowe dla baz danych.
 
 %package doc
-Summary:	-
-Summary(pl):	-
-Group:		-
+Summary:	Sequoia documentation
+Summary(pl):	Dokumentacja dla projektu Sequoia
+Group:		Documentation
 
 %description doc
+Sequoia documentation.
 
 %description doc -l pl
+Dokumentacja dla projektu Sequoia.
 
 %prep
 %setup -q -n %{name}-%{version}-%{_rc}-bin
