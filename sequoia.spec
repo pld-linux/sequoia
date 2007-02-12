@@ -1,5 +1,5 @@
 Summary:	Sequoia database clustering solution
-Summary(pl):	Sequoia - rozwi±zanie klastrowe dla baz danych
+Summary(pl.UTF-8):   Sequoia - rozwiÄ…zanie klastrowe dla baz danych
 Name:		sequoia
 Version:	3.0
 %define	_rc	beta1
@@ -25,18 +25,18 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Sequoia database clustering solution.
 
-%description -l pl
-Sequoia - rozwi±zanie klastrowe dla baz danych.
+%description -l pl.UTF-8
+Sequoia - rozwiÄ…zanie klastrowe dla baz danych.
 
 %package doc
 Summary:	Sequoia documentation
-Summary(pl):	Dokumentacja dla projektu Sequoia
+Summary(pl.UTF-8):   Dokumentacja dla projektu Sequoia
 Group:		Documentation
 
 %description doc
 Sequoia documentation.
 
-%description doc -l pl
+%description doc -l pl.UTF-8
 Dokumentacja dla projektu Sequoia.
 
 %prep
