@@ -47,7 +47,7 @@ rm -rf $RPM_BUILD_ROOT
 
 install -d $RPM_BUILD_ROOT/etc/{logrotate.d,rc.d/init.d,sysconfig,sequoia} \
 	   $RPM_BUILD_ROOT%{_javadir}/%{name} \
-	   $RPM_BUILD_ROOT/var/{log/{archiv,}/%{name},lib/%{name}/backup} \
+	   $RPM_BUILD_ROOT/var/{log/{archive,}/%{name},lib/%{name}/backup} \
 
 cp -r config/* $RPM_BUILD_ROOT/etc/%{name}
 ln -s /etc/%{name} $RPM_BUILD_ROOT%{_javadir}/%{name}/config
